@@ -1,1 +1,2 @@
-# Sp18C-TeeiaBattle-master
+# Sp18C-TeeiaBattle
+Gregteeia Battle
