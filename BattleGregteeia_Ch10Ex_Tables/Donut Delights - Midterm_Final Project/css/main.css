@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{}
+
+header{}
+
+.container{}
+
+/* the styles for the navigation menu */
+#nav_menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+#nav_menu ul li {
+	float: RIGHT;
+}
+#nav_menu ul li a {
+    display: block;
+    width: 160px;
+    text-align: center;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: sandybrown;
+    color: white;
+    font-weight: bold;
+}
+#nav_menu a.current {
+	color: yellow;
+}
+#nav_menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+#nav_menu ul ul li {
+	float: none;
+}
+#nav_menu ul li:hover > ul {
+	display: block;
+}
+#nav_menu > ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.logo{
+	float: left;
+}
+
+#hero {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 25px;
+	font-style: italic;
+	font-weight: bold;
+	background-color: #BC6A01;
+	margin: auto;
+	padding: 0.1em;
+	clear: both;
+	float: none;
+	height:420;
+	width: 420;
+	border-width: thin;
+	border-style: none;
+	position: relative;
+}

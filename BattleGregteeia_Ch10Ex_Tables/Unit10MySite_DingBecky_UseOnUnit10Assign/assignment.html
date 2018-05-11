@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Becky Ding is the most fascinating person in the world.  Read more about her family, work, and personal interests.">
+	<meta name="keywords" content="nicu, humane society, parkland, paper crafting, sea star">
+	<title>Becky Ding's assignment page</title>
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/assignment.css">
+	<link rel="stylesheet" href="css/navbar.css">
+</head>
+<body>
+<header>
+	<a href="index.html"><img src="img/GandB.jpg" alt="Grace and Becky in the car" width="140" id="GandB"/></a>
+	<nav>
+		<a href="index.html" class="navItem">Home</a>
+		<a href="about.html" class="navItem">About</a>
+		<a href="contact.html" class="navItem">Contact</a>
+		<a href="assignment.html" class="navItem active">Assignment</a>
+	</nav>
+</header>
+
+<div id="line"></div>
+	<!-- submenu -->
+	<ul id="submenu">
+		<li><a href="#default-ul">default ul</a></li>
+		<li><a href="#default-ol">default ol</a></li>
+		<li><a href="#dl">dl</a></li>
+		<li><a href="#changed-ol">changed ol</a></li>
+		<li><a href="#changed-ul">changed ul</a></li>
+	</ul>
+
+<main>
+	<!-- a list with nested lists -->
+	<ul class="remove_bullets">
+		<li><h4>a default unordered list</h4></li>
+		<li><ul id="default-ul">
+			<li>unordered list item 1</li>
+			<li>unordered list item 2</li>
+			<li>unordered list item 3</li>
+		</ul></li>
+
+		<li><h4>a default ordered list</h4></li>
+		<li><ol id="default-ol">
+			<li>ordered list item 1</li>
+			<li>ordered list item 2</li>
+			<li>ordered list item 3</li>
+		</ol></li>
+
+		<li><h4>a default description list</h4></li>
+		<li><dl id="dl">
+			<dt>unordered list</dt>
+			<dd>The <a href="https://www.w3schools.com/tags/tag_ul.asp">&lt;ul&gt; tag</a> defines an unordered (bulleted) list.</dd>
+			<dt>ordered list</dt>
+			<dd>The <a href="https://www.w3schools.com/tags/tag_ol.asp">&lt;ol&gt; tag</a> defines an ordered list.  An ordered list can be numerical or alphabetical.</dd>
+			<dt>description list</dt>
+			<dd>The <a href="https://www.w3schools.com/tags/tag_dl.asp">&lt;dl&gt; tag</a> defines a description list.</dd>
+		</dl></li>
+
+		<li><h4>an ordered list with the numbering system changed in CSS</h4></li>
+		<li><ol class="change_numbers" id="changed-ol">
+			<li>ordered list item 1</li>
+			<li>ordered list item 2</li>
+			<li>ordered list item 3</li>
+		</ol></li>
+
+		<li><h4>an unordered list with the bullets changed in CSS</h4></li>
+		<li><ul class="change_bullets" id="changed-ul">
+			<li>unordered list item 1</li>
+			<li>unordered list item 2</li>
+			<li>unordered list item 3</li>
+		</ul></li>
+	</ul>
+
+	<section>
+		<!-- links to other pages -->
+		<a href="about.html" accesskey="a" target="_blank">Open the about page in a new window or tab and test the access key (alt+a)</a>
+		<!-- if you have trouble with the page not opening in a new window or tab, check your popup blocker settings -->
+		
+		<a href="contact.html" title="Contact me">Open the contact page</a>
+		
+		<a href="index.html" title="Return Home"><img src="img/GandB.jpg" alt="Grace and Becky in the car" width="60" id="HomeLink"/></a>
+		
+		<a href="files/NavBar.mp4" type="video/mp4" target="_blank">View an old video about nav bars using Bootstrap.</a>
+		
+	</section>
+</main>
+
+<!-- this is the footer for the entire page -->
+<footer id="bodyfooter">
+	<small>&copy;Becky Ding <span>last updated <time datetime="2018-03-25">March 25, 2018</time></span></small>
+</footer>
+
+</body>
+</html>

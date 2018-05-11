@@ -1,0 +1,199 @@
+@charset "UTF-8";
+/* CSS Document */
+/* the styles for the elements */ 
+/* type selectors */ 
+html {
+	background-image: -moz-linear-gradient(to bottom, white 0%, #facd8a 100%); background-image: -webkit-linear-gradient( to bottom, white 0%, #facd8a 100%);
+	background-image: -o-linear-gradient(to bottom, white 0%, #facd8a 100%); background-image: linear-gradient(to bottom, white 0%, #facd8a 100%);
+}
+body { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 100%; width: 990px; 
+	background-color: white; margin: 15px auto; padding: 15px 0; border: 1px solid black; }
+/* no border radius or box shadow */ 
+section, aside, h1, h2, h3, p { 
+	margin: 0; padding: 0; } 
+	section, aside { 
+		margin-top: 1.5em; margin-bottom: 1em; 
+}
+a { 
+	font-weight: bold; } 
+a:link {
+	color: #931420;
+} a:visited { 
+	color: #f2972e; }
+a:hover, a:focus {
+	color: blue; 
+} 
+
+ul { 
+	line-height: 1.5; 
+} 
+li, p { 
+	font-size: 95%; 
+} 
+em { 
+	font-weight: bold; 
+}
+
+/* the styles for the header */ 
+header {
+	padding-bottom: 1em;
+	border-bottom: 2px solid #931420;
+	padding right: 30px; 
+	padding-left: 30px;
+	background:linear-gradient(30deg, #F6BB73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+}
+header img { 
+	float: left;
+	margin-left: 20px; 
+} 
+header h2 { 
+	font-size: 220%; 
+	color: #913420; 
+	text-align: center; 
+	text-shadow: 2px 2px 2px black; 
+} 
+header h3 { 
+	font-size: 130%; 
+	font-style: italic; 
+	text-align: center; 
+
+} 
+
+/* the styles for the main content */ 
+
+main { 
+	clear: left; 	
+} 
+
+aside img{}
+
+
+main p {
+	padding-bottom: .5em;
+}
+
+main blockquote { 
+	padding: 2em;
+}
+
+main ul {
+	padding-bottom: .25em;
+	padding-left: 1.25em;
+	font-style: italic;
+}
+
+main ul li {
+	padding-bottom: .35em;
+}
+
+/* the styles for the section */ 
+section { 
+	width: 535px; 
+	margin-left: 20px; 
+	padding-right: 25px; 
+	float: right; 
+}
+
+section h1 { 
+	font-size: 170%; 
+	margin-bottom: .35em; 
+} 
+section h2 { 
+	font-size: 130%; 
+	margin-bottom: .35em; 
+}
+#contact_us { 
+	margin-top: 1em; 
+} 
+a.date_passed { 
+	color: gray; 
+}
+section ul{
+	padding-bottom: .25em;
+}
+section ul li{
+	padding-bottom: .35em;
+}
+/*the styles for the article*/
+article h1 {
+	font-size: 150%;
+	padding-top: .5em;
+	padding-bottom: .25em;
+	margin: 0;
+}
+article{
+	padding: .5em;
+	border-top: 2px solid #800000;
+	border-bottom: 2px solid #800000;
+}
+article img{
+	float: right;
+	margin: 1em 0 1em 1em;
+	border: 1px black solid;
+}
+article h2{ 
+padding-top: 0;
+}
+
+article h3{
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+
+/* the styles for the sidebar */ 
+aside { 
+	width: 350px; 
+	float: right; 
+	padding: 20px; 
+	background-color: #ffebc6; 
+	margin-right: 20px;
+} 
+aside h2 { 
+	font-size: 130%; 
+	padding-bottom: .5em; 
+} 
+aside h3 { 
+	font-size: 100%; 
+	color: #931420; 
+	padding-bottom: .5em; }
+aside p { 
+	margin-bottom: .5em; 
+}
+
+
+/*this is an h2 now*/
+main h1 { 
+	
+main h2 { 
+	font-size: 130%; 
+	color: #800000;
+	padding-top: .5em;
+	padding-bottom: .25em;
+} 
+
+main h3{
+	padding-bottom: .25em;	
+}
+
+main p.indent { 
+	text-indent: 2em;
+	padding-bottom: .5em;
+} 
+main a.date_passed { 
+	color: gray; 
+} 
+
+
+/* the styles for the footer */ 
+footer { 
+	clear: both;
+	border-top: 2px solid #f2972e; 
+	padding-top: .7em; 
+} 
+
+footer p { 
+	font-size: 80%; 
+	text-align: right;
+	margin-right: 20px;
+}

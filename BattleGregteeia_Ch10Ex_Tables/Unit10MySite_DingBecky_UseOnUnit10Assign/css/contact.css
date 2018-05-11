@@ -1,0 +1,140 @@
+@charset 'UTF-8';/* 3-column fluid and fixed layout */
+#commentForm {
+    width: 125%;
+    padding-left: 4em;
+}
+
+#contactInfo {
+    width: 50%;
+    padding-left: 10em;
+    padding-right: 2em;
+}
+
+#map {
+    border: darkslateblue 3px groove;
+    border-radius: 18px;
+    padding: 2px;
+}
+
+
+aside
+{
+  float: right;
+}
+
+.article{
+	
+	
+}
+
+.main{
+   position: relative;
+  height: 54vw;
+  font-family: 'acumin-pro-extra-condensed', sans-serif;
+  color: #fff;
+  position: absolute;
+  z-index: 20000;
+  padding-top: 4em;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+section {
+    float: left;
+    margin-top: 1em;
+}
+
+iframe {
+    border-radius: 18px;
+}
+
+form {
+    border: 6px groove darkslateblue;
+    border-radius: 18px;
+    padding-top: 2em;
+	
+}
+
+input, textarea {
+    border: none;
+    border-radius: 6px;
+    margin: 5%;
+    line-height: 1.5em;
+    width: 90%;
+}
+
+textarea {
+    height: 6em;
+}
+
+label {
+    padding: 1.5em;
+}
+
+#button {
+    width: 50%;
+    background-color: #B9B2E3;;
+    float: right;
+    font-size: 120%;
+}
+
+pre {
+    font-size: 120%;
+}
+
+body { 
+    font-size: 100%;
+    background-color: #E4E2EC;
+    margin: 1.5em 5em;
+    padding: .5em;
+    width: 90%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 6px groove #110D2E;
+    border-radius: 18px;
+    box-shadow: 5px 5px 5px 5px #6556c0;
+}
+
+html {
+    background-image: -webkit-linear-gradient(to top, #b7b1db 0%, darkslateblue 100%);
+    background-image: -moz-linear-gradient(to top, #b7b1db 0%, darkslateblue 100%);
+    background-image: -o-linear-gradient(to top, #b7b1db 0%, darkslateblue 100%);
+    background-image: linear-gradient(to top, #b7b1db 0%, darkslateblue 100%);
+}
+
+span {
+    float: right;
+    margin: 0 .6em 0 1.4em;
+}
+
+
+.container-fluid { margin: .4em;
+    color: darkslateblue;
+    line-height: 2.5em;
+	font-size: 150%;
+	background-color: #E4E2EC;
+	
+}
+
+.footer>small {
+    margin: .4em;
+    color: darkslateblue;
+    line-height: 2.5em;
+}
+
+.footer {
+    margin-left: .4em;
+	background-color: #E4E2EC;
+}
+
+
+ /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+	  background-color: #E4E2EC;
+    }
+    
+   
+  

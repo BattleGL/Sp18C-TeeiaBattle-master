@@ -1,0 +1,132 @@
+/* add your css on this page */
+
+/* * {
+    border: 1px solid red !important;
+ } */
+
+html {
+    background-image: -webkit-linear-gradient(to bottom, #b7b1db 0%, darkslateblue 100%);
+    background-image: -moz-linear-gradient(to bottom, #b7b1db 0%, darkslateblue 100%);
+    background-image: -o-linear-gradient(to bottom, #b7b1db 0%, darkslateblue 100%);
+    background-image: linear-gradient(to bottom, #b7b1db 0%, darkslateblue 100%);
+}
+body { 
+    font-size: 100%;
+    background-color: #E4E2EC;
+    margin: 1.5em 5em;
+    padding: .5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 6px groove #110D2E;
+    border-radius: 18px;
+    box-shadow: 5px 5px 5px 5px #6556c0;
+}
+
+#MainArticle {
+    background:  url("../img/backGroundBright.jpg") no-repeat scroll center top;
+    padding-bottom: 10px;
+    color: #110D2E;
+    border: 3px groove #110D2E;
+    border-radius: 18px;
+    margin: 1.5em;
+}
+
+article>section {
+    margin: 2em;
+}
+
+#family {
+    width: 78%;
+    float: left;
+}
+aside {
+    margin-top: 5em;
+    float: right;
+    width: 15%;
+    height: 190px;
+    border-left: 2px solid #5146A4;
+    padding: .3em;
+    font: lighter 120%/130% "Brush Script MT", cursive;
+    color: #19105C;
+}
+
+aside>p {
+    float: right;
+}
+
+#work {
+    clear: both;
+}
+
+ul li::first-letter {
+    font-size: 160%;
+}
+
+article a:link {
+    color: #3A2C91;
+}
+
+article a:visited {
+    color: #564D94;
+}
+
+article a:hover, article a:focus {
+    color: #6556C0;
+    font-weight: bold;
+}
+
+img {
+    border: darkslateblue 3px groove;
+    border-radius: 18px;
+    padding: 2px;
+}
+
+#GandB {
+    margin-left: 1em;
+    margin-top: .5em;
+    margin-bottom: 1.5em;
+    box-shadow: 5px 5px 5px 5px #6556c0;
+}
+#menuPlanner,span {
+    float: right;
+    margin: 0 .6em 0 1.4em;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 1em;
+}
+
+.footer>small {
+    margin: .4em;
+    color: darkslateblue;
+    line-height: 2.5em;
+}
+
+.footer {
+    margin-left: .4em;
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+	  background-color: #6600CC;
+		font-size: 150%;
+    color: #bdb2e3;
+    margin-bottom: 1em;
+    text-align: center;
+    text-shadow: -1px 1px 2px darkslateblue
+    }
+    
+    /* Add a golden background color and some padding to the section */
+.panel,.panel-body,.panel-heading,.panel-default{background:  url("../img/backGroundBright.jpg") no-repeat scroll center top;
+    padding-bottom: 10px;
+    color: #110D2E;
+    border: 3px groove #110D2E;
+    border-radius: 18px;
+    margin: 1.5em; }
+
+p {
+	font-size: 150%;
+}
+
